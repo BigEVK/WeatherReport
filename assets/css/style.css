@@ -25,6 +25,7 @@ h2 {
     border-radius: 10px;
     background-color: dodgerblue;
     color: white;
+    border-bottom: 5px;
 }
 
 .searchBtn:hover {
@@ -47,7 +48,8 @@ h2 {
 .info {
     display: flex;
     flex-direction: column;
-    /* flex-grow: 1; */
+    flex-grow: 1;
+    
     /* flex-direction: column;
     justify-content: flex-end;
     /* justify-content: space-around; */
@@ -55,8 +57,25 @@ h2 {
 
 .currentCity {
     flex-grow: 1;
+    padding: 1px 5px 1px 5px;
+    min-height: 200px;
     /* align-self:flex-end; */
     border: 1px solid black;
     /* align-self: flex-end; */
         
+}
+
+.fiveDay {
+    /* min-height: 250px; */
+    display: flex;
+    /* flex-grow: 1; */
+    /* flex-direction: row; */
+}
+.dayOne, .dayTwo, .dayThree, .dayFour, .dayFive {
+    min-height: 150px;
+    flex-grow: 1;
+    width: 100px;
+    margin: 10px;
+    background-color: #000080;
+    color: #ffffff;
 }
