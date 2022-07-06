@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/stlye.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Report</title>
 </head>
 
@@ -12,8 +13,33 @@
     <header class="jumbotron">
         <h1>Weather Report</h1>
     </header>
-    
+    <div class="page">
+    <div class="findCity">
+        <h2>Search for a City:</h2>
+        <!-- <label for="city">Search for a City:</label> -->
+        <input class="city" type="text" id="city" name="city" required minlength="3" height="10px" size="25">
+        <br>
+        <input class="searchBtn" type="button" value="Search">
+    </div>
+
+    <!-- <div class="info"> -->
+        <div class="currentCity">
+            <h2>Atlanta 07/05/2022</h2>
+            <p>Temp</p>
+            <p>wind</p>
+            <p>Humidity</p>
+            <p>UV Index</p>
+        </div>
+        <div class="fiveDay">
+            <h2>5-Day Forecast:</h2>
+
+        </div>
+    <!-- </div> -->
+    </div>
+
+
 
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

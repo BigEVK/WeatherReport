@@ -1,0 +1,61 @@
+h1 {
+    background-image: linear-gradient(to right, blue, purple, blue);
+    color: white;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-weight: 900;
+}
+
+.page {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.searchBtn {
+    border: 0;
+    margin-top: 5px;
+    margin-right: auto;
+    padding: 5px 85px;
+    line-height: 2;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.searchBtn:hover {
+    background-color: blue;
+}
+
+.findCity {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    /* margin-right: auto;  */
+
+}
+
+.city {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* .info {
+    display: flex;
+    /* flex-grow: 1; */
+    /* flex-direction: column;
+    justify-content: flex-end;
+    /* justify-content: space-around; */
+/* }  */
+
+.currentCity {
+    flex-grow: 1;
+    align-self:flex-end;
+    border: 1px solid black;
+    /* align-self: flex-end; */
+        
+}
