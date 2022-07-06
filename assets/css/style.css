@@ -31,30 +31,31 @@ h2 {
     background-color: blue;
 }
 
-.findCity {
+/* .findCity {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     /* margin-right: auto;  */
 
-}
+/* } */ 
 
 .city {
     margin-left: auto;
     margin-right: 20px;
 }
 
-/* .info {
+.info {
     display: flex;
+    flex-direction: column;
     /* flex-grow: 1; */
     /* flex-direction: column;
     justify-content: flex-end;
     /* justify-content: space-around; */
-/* }  */
+} 
 
 .currentCity {
     flex-grow: 1;
-    align-self:flex-end;
+    /* align-self:flex-end; */
     border: 1px solid black;
     /* align-self: flex-end; */
         
