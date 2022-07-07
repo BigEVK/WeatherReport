@@ -32,13 +32,13 @@ h2 {
     background-color: blue;
 }
 
-/* .findCity {
+.findCity { 
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    /* margin-right: auto;  */
+    margin-left: 20px;    
+    margin-right: 20px; 
 
-/* } */ 
+}
 
 .city {
     margin-left: auto;
